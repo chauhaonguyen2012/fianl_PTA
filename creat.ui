@@ -28,6 +28,9 @@
       <pointsize>50</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>creat your account</string>
     </property>
@@ -49,13 +52,16 @@
          <pointsize>20</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(116, 116, 116)</string>
+       </property>
        <property name="text">
         <string>enter your username</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="username">
        <property name="font">
         <font>
          <pointsize>20</pointsize>
@@ -73,13 +79,16 @@
          <pointsize>20</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(116, 116, 116)</string>
+       </property>
        <property name="text">
         <string>enter your email</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_3">
+      <widget class="QLineEdit" name="passworld">
        <property name="font">
         <font>
          <pointsize>20</pointsize>
@@ -97,13 +106,16 @@
          <pointsize>20</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(116, 116, 116)</string>
+       </property>
        <property name="text">
         <string>enter your passworld</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_2">
+      <widget class="QLineEdit" name="email">
        <property name="font">
         <font>
          <pointsize>20</pointsize>
@@ -121,13 +133,16 @@
          <pointsize>20</pointsize>
         </font>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(116, 116, 116)</string>
+       </property>
        <property name="text">
         <string>comfirm your pass world</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="lineEdit_4">
+      <widget class="QLineEdit" name="comfimpassworld">
        <property name="font">
         <font>
          <pointsize>20</pointsize>
@@ -140,7 +155,7 @@
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="creat">
     <property name="geometry">
      <rect>
       <x>190</x>
@@ -153,6 +168,9 @@
      <font>
       <pointsize>25</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(116, 116, 116)</string>
     </property>
     <property name="text">
      <string>creat account</string>
@@ -172,10 +190,80 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>Agree to the term</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>681</width>
+      <height>661</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">blackground-color: rgb(49, 49, 49)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/images.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>211</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/tải_xuống__1_-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>260</y>
+      <width>141</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/images__1_-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>creat</zorder>
+   <zorder>checkBox</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

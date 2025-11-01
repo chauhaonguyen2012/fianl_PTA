@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>737</width>
+    <width>862</width>
     <height>750</height>
    </rect>
   </property>
@@ -28,6 +28,9 @@
       <pointsize>50</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>login</string>
     </property>
@@ -46,6 +49,9 @@
       <pointsize>30</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>sign in your account</string>
     </property>
@@ -54,7 +60,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>10</y>
+      <y>30</y>
       <width>711</width>
       <height>181</height>
      </rect>
@@ -64,11 +70,14 @@
       <pointsize>75</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>music planet</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="Email">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -100,11 +109,14 @@
       <pointsize>30</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>sign in your passwold</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="Password">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -122,7 +134,7 @@
      <string>your passworld</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="new_account">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -140,7 +152,7 @@
      <string>New account</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btnLogin">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -154,17 +166,68 @@
       <pointsize>20</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(116, 116, 116)</string>
+    </property>
     <property name="text">
      <string>login</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>861</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/images.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>430</y>
+      <width>281</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Downloads/ChatGPT Image 15_40_29 25 thg 10, 2025.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>Email</zorder>
+   <zorder>label_4</zorder>
+   <zorder>Password</zorder>
+   <zorder>new_account</zorder>
+   <zorder>btnLogin</zorder>
+   <zorder>label_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>737</width>
+     <width>862</width>
      <height>26</height>
     </rect>
    </property>

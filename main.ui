@@ -17,18 +17,15 @@
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>431</width>
-      <height>341</height>
+      <x>140</x>
+      <y>30</y>
+      <width>501</width>
+      <height>111</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
-     <property name="spacing">
-      <number>7</number>
-     </property>
      <property name="sizeConstraint">
-      <enum>QLayout::SetDefaultConstraint</enum>
+      <enum>QLayout::SetFixedSize</enum>
      </property>
      <item>
       <widget class="QLabel" name="label">
@@ -36,7 +33,7 @@
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../../../../Downloads/ChatGPT Image 15_40_29 25 thg 10, 2025.png</pixmap>
+        <pixmap>../../../Users/DELL/Downloads/ChatGPT Image 15_40_29 25 thg 10, 2025.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
