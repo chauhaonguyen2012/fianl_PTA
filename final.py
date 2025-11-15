@@ -37,11 +37,39 @@ class Main(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("main.ui", self)
+        self.home.clicked.connect(self.back_to_home)
+        self.profile.clicked.connect(self.back_to_profile)
+
+    def back_to_profile(self):
+        profile.show()
+        self.close()
+
+    
+
+class Profile(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        uic.loadUi("profile.ui", self)
+        self.btnLogout.clicked.connect(self.back_to_login)
+        self.home.clicked.connect(self.back_to_home)
+
+    def back_to_home(self):
+        main.show()
+        self.close()
+        
+    def back_to_login(self):
+        login.show()
+        self.close()
+
+    def back_to_profile(self):
+        profile.show()
+        self.close()
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     login = Login()
     register = Register()
     main = Main()
+    profile = Profile()
     login.show()
     app.exec()

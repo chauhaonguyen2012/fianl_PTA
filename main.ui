@@ -6,21 +6,137 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1112</width>
-    <height>813</height>
+    <width>1119</width>
+    <height>818</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background_color: red</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/ChatGPT Image 15_40_29 25 thg 10, 2025.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>211</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(232, 255, 125)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>your library</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>200</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>new library</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>0</y>
+      <width>204</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(252, 255, 39)</string>
+       </property>
+       <property name="text">
+        <string>username</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="profile">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/tải_xuống222-removebg-preview.png</normaloff>../../../../Downloads/tải_xuống222-removebg-preview.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
    <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>30</y>
-      <width>501</width>
-      <height>111</height>
+      <x>180</x>
+      <y>0</y>
+      <width>701</width>
+      <height>101</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -28,17 +144,7 @@
       <enum>QLayout::SetFixedSize</enum>
      </property>
      <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>../../../Users/DELL/Downloads/ChatGPT Image 15_40_29 25 thg 10, 2025.png</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-      </widget>
+      <layout class="QGridLayout" name="gridLayout"/>
      </item>
      <item>
       <widget class="QLineEdit" name="lineEdit">
@@ -47,15 +153,155 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QPushButton" name="home">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/tải_xuống__1_-removebg-preview (1).png</normaloff>../../../../Downloads/tải_xuống__1_-removebg-preview (1).png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="info">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../../Downloads/tải xuống.png</normaloff>../../../../Downloads/tải xuống.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout"/>
+     </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>180</y>
+      <width>761</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/tải xuống (3).jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/tải xuống (2).jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/tải xuống (4).jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/0151bcc5dc64312a9b6d9d2245aab54c.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/tải xuống (5).jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../../../Downloads/b339caaf9ac43b1621cc2a793666748d.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+    <zorder>label_7</zorder>
+    <zorder>label_17</zorder>
+    <zorder>label_8</zorder>
+    <zorder>label_9</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_12</zorder>
+   </widget>
+   <zorder>layoutWidget</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_6</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1112</width>
+     <width>1119</width>
      <height>26</height>
     </rect>
    </property>
