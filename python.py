@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow, QMessageBox
 from PyQt6 import uic 
 import sys
-import os
+
 
 class Login(QMainWindow):
     def __init__(self):
